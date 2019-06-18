@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+	<table-filter match-schema="public" match-name="aluno" />
+	<table-filter match-schema="public" match-name="curso" />
+	<table-filter match-schema="public" match-name="cursosoportunidade" />
+	<table-filter match-schema="public" match-name="experienciasprofissionais" />
+	<table-filter match-schema="public" match-name="formacaoanterior" />
+	<table-filter match-schema="public" match-name="formacaocomplementar" />
+	<table-filter match-name="idioma" match-schema="public"></table-filter>
+
+
+
+
+	<table-filter match-schema="public" match-name="idiomasaluno" />
+
+	<table-filter match-schema="public" match-name="oportunidade" />
+
+	<table-filter match-schema="public" match-name="oportunidadealuno" />
+
+	<table-filter match-schema="public" match-name="remuneracao" />
+
+	<table-filter match-schema="public" match-name="responsavel" />
+
+	<table-filter match-schema="public" match-name="tipooportunidade" />
+	
+	<table-filter match-schema="public" match-name="mensagemaluno" />
+
+</hibernate-reverse-engineering>

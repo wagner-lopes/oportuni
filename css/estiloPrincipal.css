@@ -1,0 +1,222 @@
+@charset "utf-8";
+
+/* CSS Document */ /*Fundo cabecalho*/
+.tail-top {
+	background: url(../images/fundoCabecalho.jpg) left top repeat-x #fff
+}
+
+/* Mensagem de boas vindas*/
+.messagem-welcome .col-1Msg,.col-2Msg {
+	float: left;
+}
+
+.messagem-welcome {
+	height: 200px;
+	background: url(../images/fundoAzulClaro.jpg) left top repeat #fff
+}
+
+.messagem-welcome .col-1Msg {
+	width: 450px;
+	margin-right: 100px;
+}
+
+.messagem-welcomeCol2 {
+	width: 449px;
+	height: 350px;
+	background: url(../images/printTela.png)
+}
+
+.messagem-welcome,.messagem-welcomeCol2 {
+	float: left;
+}
+
+.messagem-welcome .col-1Msg .titulo {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #4E83C9;
+	font-size: 28px;
+	line-height: 1.4em;
+	font-weight: normal;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.messagem-welcome .col-1Msg .texto {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #349900;
+	font-size: 18px;
+	line-height: 2.0em;
+	text-align: center;
+	width: 100%;
+}
+
+.messagem-welcome .col-1Msg .botaoMsg {
+	margin-top: 20px;
+	text-align: center;
+}
+
+/*Menu inferior*/
+.col-1,.col-2,.col-3 {
+	float: left
+}
+
+.content .col-1 {
+	width: 433px;
+	margin-right: 20px;
+	margin-top: 30px;
+}
+
+.content .col-2 {
+	background: url(../images/ponto.jpg) repeat-y;
+	width: 10px;
+	height: 300px;
+	margin-bottom: 20px;
+}
+
+.content .col-3 {
+	width: 433px;
+	margin-left: 20px;
+	margin-top: 30px;
+}
+
+.itemMenu {
+	height: 110px;
+	margin-top: 5px;
+}
+
+.itemMenu .logoItMenu {
+	height: 100px;
+	width: 80px;
+}
+
+.itemMenu .textoItMenu {
+	width: 353px;
+}
+
+.logoItMenu,.textoItMenu {
+	float: left
+}
+
+/*Cabecalho*/ /* header */
+.header .row-1 {
+	height: 90px
+}
+
+.header .row-2 {
+	height: 30px
+}
+
+.header .row-2 .indent {
+	padding: 54px 0 0 36px
+}
+
+.header .row-3 {
+	padding-left: 20px
+}
+
+.mensagemErroLogin,.panelComoAcessar {
+	float: left;
+}
+
+.mensagemErroLogin {
+	color: red;
+	font-size: x-small;
+	font-weight: bold;
+}
+
+.panelComoAcessar {
+	padding-left: 100px;
+}
+
+.botaoFecharMPComoAcessar {
+	margin-top: 30px;
+	margin-left: 42%;
+}
+
+.textoMPComoAcessar {
+	text-align: center;
+	color: blue;
+}
+
+.opcaoLogin {
+	padding-left: 10px;
+}
+
+.linkRelacionado {
+	text-decoration: none;
+}
+
+.linkRelacionado .texto {
+	font-size: 12px;
+	color: #005BAD;
+	font-weight: bold;
+	text-align: center;
+	width: 100%;
+	margin: 10px 0;
+}
+
+.linkRelacionado .texto:hover {
+	color: #c72d00;
+}
+
+.contatoExterno {
+	padding-top: 5px;
+	padding-left: 20%;
+}
+
+.contatoExterno .item {
+	height: 20px;
+}
+
+.contatoExterno .item .label {
+	color: #005BAD;
+	font-size: 12px;
+	font-weight: bold;
+	height: 15px;
+	padding-right: 10px;
+}
+
+.textoInicialContatoExterno {
+	color: #005BAD;
+	font-size: 12px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	text-align: center;
+	text-indent: 25px;
+}
+
+.menuContatoExterno {
+	padding-left: 250px;
+}
+
+.menuContatoExterno .item {
+	float: left;
+	padding-top: 10px;
+	padding-left: 33%;
+}
+
+
+.creditos .titulo {
+	text-align: left;
+	color: black;
+	font-weight: bold;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.creditos .nome {
+	text-align: center;
+	color: #005BAD;
+	height: 20px;
+}
+
+.creditos .textoInicial {
+	text-align: center;
+	color: #005BAD;
+	height: 20px;
+	margin-bottom: 30px
+}
+
+.creditos .botaoFechar {
+	margin-top: 30px;
+	margin-left: 42%;
+}

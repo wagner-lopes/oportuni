@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+                                         "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+ <session-factory name="">
+  <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+  <property name="hibernate.connection.password">adivinhasenha</property>
+  <!-- <property name="hibernate.connection.password">oportuni</property> -->
+  <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/oportuni</property>
+  <!-- <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/Oportuni</property> -->
+  <!-- <property name="hibernate.connection.username">OportuniUser</property> -->
+  <property name="hibernate.connection.username">oportuni</property>
+  <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+  <property name="hibernate.show_sql">true</property>
+  <property name="hibernate.format_sql">true</property>
+  <property name="hibernate.c3p0.timeout">600</property>
+  <property name="hibernate.c3p0.min_size">1</property>
+  <property name="hibernate.c3p0.max_statements">50</property>
+  <property name="hibernate.c3p0.max_size">5</property>
+  <mapping class="br.ufmg.oportuni.entidades.Aluno"/>
+  <mapping class="br.ufmg.oportuni.entidades.Curso"/>
+  <mapping class="br.ufmg.oportuni.entidades.Experienciasprofissionais"/>
+  <mapping class="br.ufmg.oportuni.entidades.Formacaoanterior"/>
+  <mapping class="br.ufmg.oportuni.entidades.Formacaocomplementar"/>
+  <mapping class="br.ufmg.oportuni.entidades.Idioma"/>
+  <mapping class="br.ufmg.oportuni.entidades.Idiomasaluno"/>
+  <mapping class="br.ufmg.oportuni.entidades.Oportunidade"/>
+  <mapping class="br.ufmg.oportuni.entidades.Oportunidadealuno"/>
+  <mapping class="br.ufmg.oportuni.entidades.OportunidadealunoId"/>
+  <mapping class="br.ufmg.oportuni.entidades.Remuneracao"/>
+  <mapping class="br.ufmg.oportuni.entidades.Responsavel"/>
+  <mapping class="br.ufmg.oportuni.entidades.Tipooportunidade"/>
+  <mapping class="br.ufmg.oportuni.entidades.Mensagemaluno"/>
+ </session-factory>
+</hibernate-configuration>

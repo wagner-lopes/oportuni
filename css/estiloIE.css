@@ -1,0 +1,108 @@
+/*Estilos gerais*/
+.corpo .menu {
+	width: 25%;
+	margin-right: 10px;
+	height: 500px;
+	margin-top: 23px;
+}
+
+.corpo .conteudo {
+	width: 72%;
+}
+/*Fim estilos gerais*/
+
+/*Estilos para tabelas*/
+.dataTablePadrao {
+	border: 0;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.dataTablePadrao .coluna {
+	border: 0;
+	text-align: center;
+	height: 24px;
+}
+
+.dataTableCaixaMensagens {
+	border: 0;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.dataTableCaixaMensagens .coluna {
+	text-align: center;
+	height: 24px;
+	border-left: 0;
+	border-right: 0;
+}
+
+.dataTableItemCurriculo {
+	border: 0;
+	width: 96%;
+	margin-left: 15px;
+	margin-right: 1%;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.dataTableItemCurriculo .checkbox {
+	border-right: 0;
+	border-left: 0;
+	width: 5%;
+	text-align: center;
+}
+
+.dataTableItemCurriculo .conteudoItemCurriculo {
+	border-right: 0;
+	text-align: left;
+	padding-top: 15px;
+}
+
+.dataTableCursoOportunidade {
+	border: 0;
+	border-left: 0;
+	border-right: 0;
+	width: 96%;
+	margin-bottom: 10px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.dataTableCursoOportunidade .coluna {
+	border: 0;
+	text-align: center;
+	height: 20px;
+}
+
+.dadosPessoais .tdLabel {
+	background-color: #C1D8EC;
+	width: 210px;
+	padding-left: 5px;
+	margin-left: 10px;
+	height: 23px;
+}
+/*Fim dos estilos para tabelas*/
+
+/*Estilos para caixas de mensagens*/
+/*Fim caixa Message Box Amarelo com borda arredondada*/
+.estiloMensagemYellow {
+	color: #FF9900;
+	font-size: 11px;
+	font-weight: bold;
+}
+/*Fim dos estilos para caixas de mensagens*/
+
+.logoutMensagem {
+	text-align: right;
+	font-weight: bold;
+	font-size: 11px;
+	margin-bottom: 1px;
+	margin-left: 350px;
+	color: #003366;
+}
+
+.opcaoMenuBoxDireita {
+	float: right;
+	margin-top: -25 px;
+}

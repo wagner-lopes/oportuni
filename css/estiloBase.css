@@ -1,0 +1,639 @@
+* {
+	margin: 0;
+	padding: 0
+}
+
+html,body {
+	height: 100%
+}
+
+body {
+	background: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	line-height: 1.125em;
+	color: #616161;
+	text-align: center;
+}
+
+img {
+	border: 0;
+	vertical-align: top;
+	text-align: left
+}
+
+ul,ol {
+	list-style: none
+}
+
+.wrapper {
+	width: 100%;
+	overflow: hidden
+}
+
+.wrapper .menuExterno {
+	width: 100%;
+	overflow: hidden;
+	margin-left: 37%;
+}
+
+.textoExterno {
+	width: 80%;
+	margin-left: 12%;
+}
+
+.textoExterno .titulo {
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 10px;
+	font-size: 16px;
+	color: #003366;
+	font-variant: small-caps;
+}
+
+.textoExterno .corpoTexto {
+	text-align: justify;
+	margin-bottom: 15px;
+	text-indent: 50px;
+}
+
+.container {
+	width: 100%
+}
+
+/* GLOBAL */
+.main {
+	width: 1000px;
+	margin: 0 auto;
+	font-size: .75em;
+	text-align: left;
+}
+
+.tail-top .main {
+	width: 1000px;
+	margin: 0 auto;
+	font-size: .75em;
+	text-align: left;
+	background: url(../images/logoOportuni3DMarcaDaqua.png) no-repeat center
+}
+
+.tail-top .mainErro {
+	width: 1000px;
+	margin: 0 auto;
+	font-size: .75em;
+}
+
+.mensagemErro {
+	width: 100%;
+	text-align: center;
+}
+
+/* content */
+.content {
+	padding: 50px 35px 50px 49px
+}
+
+.contentExterno {
+	padding: 20px 35px 50px 49px
+}
+
+.content .section {
+	padding-bottom: 38px
+}
+
+.footer {
+	height: 80px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+/* footer */
+.footer .indent {
+	padding: 35px 128px 0 49px;
+}
+
+.footer .indent .texto {
+	color: gray;
+	font-size: 11px;
+}
+
+.footer .indent .texto:hover {
+	color: #c72d00;
+}
+
+.footer .logo {
+	padding: 16px 10px 10px 500px;
+}
+
+.footer .indent,.logo {
+	float: left;
+}
+
+/* tailings */
+.tail-bottom {
+	background: url(../images/fundoRodape.jpg) left bottom repeat-x
+}
+
+.comoAcessar {
+	text-align: right;
+	margin-right: 47px;
+	margin-top: 5px;
+	font-size: 11px;
+}
+
+.comoAcessar a {
+	color: white;
+}
+
+.logoOportuni {
+	float: left;
+	padding: 15px 10px 0 0
+}
+
+.login {
+	float: right;
+	padding: 35px 34px 0 0;
+	color: white;
+}
+
+.login a {
+	color: white;
+}
+
+.login li {
+	display: inline;
+	float: left
+}
+
+p {
+	margin-bottom: 18px
+}
+
+/* txt, links, lines, titles, bordas */
+a {
+	color: #c72d00;
+	outline: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h2 {
+	font-size: 1.0em;
+	margin-bottom: 6px;
+	color: #327FE4;
+}
+
+/*Fonte para links tamanho pequeno*/
+h2 a {
+	font-size: 1.0em;
+	margin-bottom: 6px;
+	color: #327FE4;
+	text-decoration: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+h2 a:hover {
+	color: #c72d00;
+}
+
+h4 {
+	font-size: 1.4em;
+	margin-bottom: 6px;
+	color: #113D72;
+}
+
+/*Fonte para links tamanho grande*/
+h4 a {
+	color: #113D72;
+	text-decoration: none
+}
+
+h4 a:hover {
+	color: #c72d00;
+}
+
+/*Fontes patra texto e titulo*/
+.label1 {
+	font-size: 12px;
+	color: #327FE4;
+	font-weight: bold;
+	margin-left: 6px;
+	margin-right: 3px;
+}
+
+.titulo1 {
+	color: black;
+	font-size: 13px;
+	font-weight: bold;
+	margin-left: 6px;
+}
+
+.titulo2 {
+	font-size: 13px;
+	color: black;
+	font-weight: bold;
+	margin-left: 5px;
+}
+
+.texto1 {
+	font-size: 12px;
+	color: #616161;
+	margin-right: 6px;
+}
+
+.label2 {
+	font-size: 12px;
+	color: black;
+	font-weight: bold;
+	margin-right: 3px;
+}
+
+.texto2 {
+	font-size: 12px;
+	color: black;
+}
+
+dl dt {
+	font-weight: bold;
+	margin-bottom: 6px
+}
+
+dl dd {
+	margin-bottom: 18px
+}
+
+div#mensagens {
+	color: red;
+	font-family: verdana, sans-serif;
+	font-size: 0.4em;
+	position: absolute;
+	left: 30px;
+	top: 30px;
+	border: 1px white;
+	height: 50px;
+	padding: 15px;
+	background: url(../images/fundoAzulClaro.jpg) left top repeat #fff;
+	overflow: auto;
+}
+
+/*Caixa azul claro arredondado*/
+.roundedcornr_box {
+	margin: 10px;
+	background: #E8F4FF;
+}
+
+.roundedcornr_top div {
+	background: url(../images/roundedcornr_tl.png) no-repeat top left;
+}
+
+.roundedcornr_top {
+	background: url(../images/roundedcornr_tr.png) no-repeat top right;
+}
+
+.roundedcornr_bottom div {
+	background: url(../images/roundedcornr_bl.png) no-repeat bottom left;
+}
+
+.roundedcornr_bottom {
+	background: url(../images/roundedcornr_br.png) no-repeat bottom right;
+}
+
+.roundedcornr_top div,.roundedcornr_top,.roundedcornr_bottom div,.roundedcornr_bottom
+	{
+	width: 100%;
+	height: 10px;
+	font-size: 1px;
+}
+
+.roundedcornr_content {
+	margin: 0 20px;
+}
+
+/*Fim caixa azul claro arredondado*/ /*Caixa cinza claro  arredondado*/
+.roundedcornr_lGr_box {
+	margin: 10px;
+	background: #f1f1f1;
+}
+
+.roundedcornr_lGr_top div {
+	background: url(../images/roundedcornr_lGr_tl.png) no-repeat top left;
+}
+
+.roundedcornr_lGr_top {
+	background: url(../images/roundedcornr_lGr_tr.png) no-repeat top right;
+}
+
+.roundedcornr_lGr_bottom div {
+	background: url(../images/roundedcornr_lGr_bl.png) no-repeat bottom left
+		;
+}
+
+.roundedcornr_lGr_bottom {
+	background: url(../images/roundedcornr_lGr_br.png) no-repeat bottom
+		right;
+}
+
+.roundedcornr_lGr_top div,.roundedcornr_lGr_top,.roundedcornr_lGr_bottom div,.roundedcornr_lGr_bottom
+	{
+	width: 100%;
+	height: 10px;
+	font-size: 1px;
+}
+
+.roundedcornr_lGr_content {
+	margin: 0 20px;
+}
+
+/*Fim caixa cinza arredondado*/ /*Caixa Amarelo claro arredondado*/
+.roundedcornr_lYe_box {
+	margin: 10px;
+	background: #fdf8c1;
+}
+
+.roundedcornr_lYe_top div {
+	background: url(../images/roundedcornr_lYe_tl.png) no-repeat top left;
+}
+
+.roundedcornr_lYe_top {
+	background: url(../images/roundedcornr_lYe_tr.png) no-repeat top right;
+}
+
+.roundedcornr_lYe_bottom div {
+	background: url(../images/roundedcornr_lYe_bl.png) no-repeat bottom left
+		;
+}
+
+.roundedcornr_lYe_bottom {
+	background: url(../images/roundedcornr_lYe_br.png) no-repeat bottom
+		right;
+}
+
+.roundedcornr_lYe_top div,.roundedcornr_lYe_top,.roundedcornr_lYe_bottom div,.roundedcornr_lYe_bottom
+	{
+	width: 100%;
+	height: 10px;
+	font-size: 1px;
+}
+
+.roundedcornr_lYe_content {
+	margin: 0 20px;
+}
+
+/*Fim caixa Amarelo claro  arredondado*/
+	/*Caixa Message Box Vermelha com borda arredondada*/
+.roundedcornr_box_sBorderRed {
+	background: url(../images/roundedcornr_sBorderRed_tl.png) no-repeat top
+		left;
+	margin: 5 10px;
+}
+
+.roundedcornr_top_sBorderRed {
+	background: url(../images/roundedcornr_sBorderRed_tr.png) no-repeat top
+		right;
+}
+
+.roundedcornr_bottom_sBorderRed {
+	background: url(../images/roundedcornr_sBorderRed_bl.png) no-repeat
+		bottom left;
+}
+
+.roundedcornr_bottom_sBorderRed div {
+	background: url(../images/roundedcornr_sBorderRed_br.png) no-repeat
+		bottom right;
+}
+
+.roundedcornr_content_sBorderRed {
+	background: url(../images/roundedcornr_sBorderRed_r.png) top right
+		repeat-y;
+}
+
+.roundedcornr_top_sBorderRed div,.roundedcornr_top_sBorderRed,.roundedcornr_bottom_sBorderRed div,.roundedcornr_bottom_sBorderRed
+	{
+	width: 100%;
+	height: 10px;
+	font-size: 1px;
+}
+
+.roundedcornr_content_sBorderRed,.roundedcornr_bottom_sBorderRed {
+	
+}
+
+.roundedcornr_content_sBorderRed {
+	padding: 0 20px;
+}
+
+/*Fim caixa Message Box Vermelha com borda arredondada*/
+.estiloMensagemRed {
+	color: red;
+	font-size: x-small;
+	font-weight: bold;
+}
+
+/*Caixa Message Box Verde com borda arredondada*/
+.roundedcornr_box_sBorderGreen {
+	background: url(../images/roundedcornr_sBorderGreen_tl.png) no-repeat
+		top left;
+	margin: 5 10px;
+}
+
+.roundedcornr_top_sBorderGreen {
+	background: url(../images/roundedcornr_sBorderGreen_tr.png) no-repeat
+		top right;
+}
+
+.roundedcornr_bottom_sBorderGreen {
+	background: url(../images/roundedcornr_sBorderGreen_bl.png) no-repeat
+		bottom left;
+}
+
+.roundedcornr_bottom_sBorderGreen div {
+	background: url(../images/roundedcornr_sBorderGreen_br.png) no-repeat
+		bottom right;
+}
+
+.roundedcornr_content_sBorderGreen {
+	background: url(../images/roundedcornr_sBorderGreen_r.png) top right
+		repeat-y;
+}
+
+.roundedcornr_top_sBorderGreen div,.roundedcornr_top_sBorderGreen,.roundedcornr_bottom_sBorderGreen div,.roundedcornr_bottom_sBorderGreen
+	{
+	width: 100%;
+	height: 10px;
+	font-size: 1px;
+}
+
+.roundedcornr_content_sBorderGreen,.roundedcornr_bottom_sBorderGreen {
+	
+}
+
+.roundedcornr_content_sBorderGreen {
+	padding: 0 20px;
+}
+
+/*Fim caixa Message Box Verde com borda arredondada*/
+.estiloMensagemGreen {
+	color: green;
+	font-size: x-small;
+	font-weight: bold;
+}
+
+/*Caixa Message Box Amarelo com borda arredondada*/
+.roundedcornr_box_sBorderYellow {
+	background: url(../images/roundedcornr_sBorderYellow_tl.png) no-repeat
+		top left;
+	margin: 5 10px;
+}
+
+.roundedcornr_top_sBorderYellow {
+	background: url(../images/roundedcornr_sBorderYellow_tr.png) no-repeat
+		top right;
+}
+
+.roundedcornr_bottom_sBorderYellow {
+	background: url(../images/roundedcornr_sBorderYellow_bl.png) no-repeat
+		bottom left;
+}
+
+.roundedcornr_bottom_sBorderYellow  div {
+	background: url(../images/roundedcornr_sBorderYellow_br.png) no-repeat
+		bottom right;
+}
+
+.roundedcornr_content_sBorderYellow {
+	background: url(../images/roundedcornr_sBorderYellow_r.png) top right
+		repeat-y;
+}
+
+.roundedcornr_top_sBorderYellow  div,.roundedcornr_top_sBorderYellow,.roundedcornr_bottom_sBorderYellow  div,.roundedcornr_bottom_sBorderYellow
+	{
+	width: 100%;
+	height: 10px;
+	font-size: 1px;
+}
+
+.roundedcornr_content_sBorderYellow,.roundedcornr_bottom_sBorderYellow {
+	
+}
+
+.roundedcornr_content_sBorderYellow {
+	padding: 0 10px;
+}
+
+/*Fim caixa Message Box Amarelo com borda arredondada*/
+.estiloMensagemYellow {
+	color: #FF9900;
+	font-size: x-small;
+	font-weight: bold;
+}
+
+/*Caixa Message Box Azul com borda arredondada e cabecalho*/
+.roundedcornr_box_sBorderHeaderBlue {
+	background: url(../images/roundedcornr_sBorderHeaderBlue_tl.gif)
+		no-repeat top left;
+	margin: 5 10px;
+}
+
+.roundedcornr_top_sBorderHeaderBlue {
+	background: url(../images/roundedcornr_sBorderHeaderBlue_tr.png)
+		no-repeat top right;
+}
+
+.roundedcornr_bottom_sBorderHeaderBlue {
+	background: url(../images/roundedcornr_sBorderHeaderBlue_bl.png)
+		no-repeat bottom left;
+}
+
+.roundedcornr_bottom_sBorderHeaderBlue div {
+	background: url(../images/roundedcornr_sBorderHeaderBlue_br.png)
+		no-repeat bottom right;
+}
+
+.roundedcornr_content_sBorderHeaderBlue {
+	background: url(../images/roundedcornr_sBorderHeaderBlue_r.png) top
+		right repeat-y;
+}
+
+.roundedcornr_top_sBorderHeaderBlue div,.roundedcornr_top_sBorderHeaderBlue,.roundedcornr_bottom_sBorderHeaderBlue div,.roundedcornr_bottom_sBorderHeaderBlue
+	{
+	width: 100%;
+	height: 10px;
+	font-size: 1px;
+}
+
+.roundedcornr_content_sBorderHeaderBlue,.roundedcornr_bottom_sBorderHeaderBlue
+	{
+	
+}
+
+.roundedcornr_content_sBorderHeaderBlue {
+	padding: 0 20px;
+}
+
+.roundedcornr_content_sBorderHeaderBlue .header {
+	font-size: 12px;
+	color: white;
+	font-weight: bold;
+	margin-bottom: 12px;
+}
+
+.roundedcornr_content_sBorderHeaderBlue .corpo {
+	margin-top: 10px;
+	margin-bottom: -10px;
+}
+
+.roundedcornr_content_sBorderHeaderBlue .corpo .conjuntoAtributos .atributoPrincipal
+	{
+	height: 40px;
+}
+
+.roundedcornr_content_sBorderHeaderBlue .corpo .conjuntoAtributos .atributo
+	{
+	height: 25px;
+}
+
+/*Fim caixa Message Box Azul com borda arredondada e cabecalho*/
+	/*Estilos para os status da oportunidade*/
+.oportunidadeEditavel {
+	color: green;
+	font-weight: bold;
+}
+
+.oportunidadePublicada {
+	color: blue;
+	font-weight: bold;
+}
+
+.oportunidadeFinalizada {
+	color: gray;
+	font-weight: bold;
+}
+
+/*Fim dos estilos para os status da oportunidade*/
+	/*Cabeçalho da oportunidade - nome e tipo*/
+.cabecalhoOportunidadeAtributo {
+	color: black;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.cabecalhoOportunidadeValor {
+	color: gray;
+	font-size: 12px;
+}
+
+/*Fim do cabeçalho da oportunidade - nome e tipo*/
+	/*Estilo para visualização do curriculo*/
+.curriculoVisitado {
+	color: gray;
+	font-weight: normal;
+}
+
+.curriculoNaoVisitado {
+	color: blue;
+	font-weight: bold;
+}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PROCESS model-entity="JSFProcess">
+ <PROCESS-ITEM NAME="rules:#apresentacao#principal.jsp"
+  PATH="/apresentacao/principal.jsp" SHAPE="24,48,50,25" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#apresentacao#principal.jsp:0" NAME="item"
+   PATH="/apresentacao/principal.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="loginAlunoSucesso::#aluno#principal.jsp"
+    NAME="output1" PATH="/aluno/principal.jsp"
+    TARGET="rules:#aluno#principal.jsp" TITLE="loginAlunoSucesso" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT
+    ID="loginResponsavelSucesso::#responsavel#principal.jsp"
+    NAME="output2" PATH="/responsavel/principal.jsp"
+    TARGET="rules:#responsavel#principal.jsp"
+    TITLE="loginResponsavelSucesso" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:" SHAPE="40,272,53,42" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules::0" NAME="item" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="login::#apresentacao#principal.jsp"
+    NAME="output" PATH="/apresentacao/principal.jsp"
+    SHAPE="92,304,96,304,96,176,16,176,16,56,23,56"
+    TARGET="rules:#apresentacao#principal.jsp" TITLE="login" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#responsavel#principal.jsp"
+  PATH="/responsavel/principal.jsp" SHAPE="256,136,50,25" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#responsavel#principal.jsp:0" NAME="item"
+   PATH="/responsavel/principal.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="sair::#index.jsp" NAME="output"
+    PATH="/index.jsp" TARGET="rules:#index.jsp" TITLE="sair" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#aluno#principal.jsp"
+  PATH="/aluno/principal.jsp" SHAPE="272,433,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#aluno#principal.jsp:0" NAME="item"
+   PATH="/aluno/principal.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="sair::#index.jsp" NAME="output"
+    PATH="/index.jsp" TARGET="rules:#index.jsp" TITLE="sair" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules::1" SHAPE="496,512,53,42" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules::1" NAME="item" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="erro::#erro.jsp" NAME="output"
+    PATH="/erro.jsp" TARGET="rules:#erro.jsp" TITLE="erro" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#erro.jsp" PATH="/erro.jsp"
+  SHAPE="488,384,50,41" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#erro.jsp:0" NAME="item" PATH="/erro.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="principal::#apresentacao#principal.jsp"
+    NAME="output" PATH="/apresentacao/principal.jsp"
+    TARGET="rules:#apresentacao#principal.jsp" TITLE="principal" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#index.jsp" PATH="/index.jsp"
+  SHAPE="344,304,50,25" model-entity="JSFProcessGroup"/>
+</PROCESS>

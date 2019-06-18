@@ -1,0 +1,471 @@
+@charset "utf-8";
+
+/* CSS Document */
+.fundoCabecalho {
+	background: url(../images/fundoCabecalhoSubCabecalho.jpg) left top
+		repeat-x #fff;
+}
+
+.cabecalho .linha1 {
+	height: 90px;
+}
+
+.cabecalho .linha2 {
+	height: 60px;
+}
+
+.cabecalho .linha2 .mapaLinks {
+	padding: 23px 0 23px 0;
+}
+
+.logoutMensagem {
+	text-align: right;
+	font-weight: bold;
+	font-size: 11px;
+	margin-bottom: 18px;
+	margin-left: 350px;
+	color: #003366;
+}
+
+.logout {
+	text-align: center;
+}
+
+.logout .icone {
+	float: left;
+	margin-bottom: 23px;
+	margin-top: 5px;
+	margin-left: 10px;
+	margin-right: 0px;
+}
+
+/*Conteudo*/
+.corpo {
+	padding: 15px 0 50px 0;
+}
+
+.corpo .menu {
+	width: 250px;
+	margin-right: 10px;
+	height: 500px;
+	margin-top: 23px;
+}
+
+.corpo .conteudo {
+	width: 720px;
+}
+
+.menu,.conteudo {
+	float: left;
+}
+
+.menu .item {
+	width: 250px;
+	height: 25px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+
+.menu .item .logo {
+	width: 32px;
+}
+
+.menu .item .texto {
+	width: 218px;
+	height: 25px;
+	color: #005BAD;
+	font-weight: bold;
+	margin-top: 3px;
+}
+
+.logo,.texto {
+	float: left;
+}
+
+.cabecalhoSubView {
+	margin-bottom: 30px;
+}
+
+.cabecalhoSubView .tituloSubView {
+	height: 20px;
+	margin-top: 10px;
+	color: #285D98;
+	font-size: 1.6em;
+}
+
+.cabecalhoSubView .tituloSubView .imagemTituloSubView {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.cabecalhoSubView .barraSubView {
+	height: 25px;
+	background: url(../images/barraAzulCabSubView.png) left top repeat-x
+		#fff;
+	margin-right: 5px;
+}
+
+.opcaoMenuBox {
+	float: left;
+	margin-right: 5 px;
+}
+
+.opcaoMenuBoxDireita {
+	float: right;
+	margin-left: 5 px;
+}
+
+.asterisco {
+	color: red;
+	font-weight: bold;
+}
+
+/*Estilos para espaçamento de imagens */
+.iconeMenu {
+	margin-right: 15px;
+}
+
+.iconeTitulo {
+	margin-bottom: 10px;
+}
+
+.iconeCabecalhoPrincipal {
+	margin-left: 200px;
+}
+
+
+/*Filtro de pesquisa da oportunidade*/
+.filtroPesquisarOportunidade {
+	margin-bottom: 5px;
+}
+
+.filtroPesquisarOportunidade .label {
+	margin-right: 5px;
+	font-weight: bold;
+	color: #327FE4;
+	font-size: 11px;
+}
+
+.filtroPesquisarOportunidade .box {
+	margin-right: 10px;
+}
+
+
+/*Estilo para os componentes RichFaces*/
+.rich-stglpanel-body {
+	text-align: center;
+}
+
+.rich-stglpanel-body .leftAlign {
+	text-align: left;
+}
+
+.rich-inplace-select-list-decoration {
+	font-size: 0.8em;
+}
+
+.rich-table-subheadercell {
+	border-right: none;
+}
+
+.rich-table-subheader {
+	background-color: #CCE6FF;
+}
+
+/*DataTable Padrao*/
+.dataTablePadrao {
+	border-style: hidden;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.dataTablePadrao .coluna {
+	border-style: hidden;
+	text-align: center;
+	height: 24px;
+}
+
+.dataTablePadrao .coluna .link {
+	color: #327FE4;
+}
+
+.dataTablePadrao .coluna .link:hover {
+	font-weight: bold;
+	font-size: 12px;
+	color: #c72d00;
+}
+
+.dataTablePadrao .linha1 {
+	background-color: white;
+}
+
+.dataTablePadrao .linha2 {
+	background-color: #F3FAFF;
+}
+
+/*DataTable Caixa de Mensagens*/
+.dataTableCaixaMensagens {
+	border-style: hidden;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.dataTableCaixaMensagens .coluna {
+	text-align: center;
+	height: 24px;
+	border-left-style: hidden;
+	border-right-style: hidden;
+}
+
+.dataTableCaixaMensagens .coluna .mensagemLida {
+	color: gray;
+	text-decoration: none;
+}
+
+.dataTableCaixaMensagens .coluna .mensagemLida:hover {
+	font-size: 12px;
+}
+
+.dataTableCaixaMensagens .coluna .mensagemNaoLida {
+	color: #327FE4;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.dataTableCaixaMensagens .coluna .mensagemNaoLida:hover {
+	font-size: 12px;
+}
+
+.itemMensagem {
+	height: 20px;
+}
+
+.itemMensagem .labelItemMensagem {
+	font-size: 12px;
+	margin-left: 5px;
+	color: black;
+	font-weight: bold;
+	margin-right: 5px;
+}
+
+.itemMensagem .valorItemMensagem {
+	font-size: 12px;
+	color: black;
+	margin-right: 10px;
+}
+
+/*DataTable Cursos da Oportunidade*/
+.dataTableCursoOportunidade {
+	border-style: hidden;
+	width: 100%;
+	margin-bottom: 10px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.dataTableCursoOportunidade .coluna {
+	border-style: hidden;
+	text-align: center;
+	height: 20px;
+}
+
+.dataTableCursoOportunidade .linha1 {
+	background-color: white;
+}
+
+.dataTableCursoOportunidade .linha2 {
+	background-color: #F3FAFF;
+}
+
+/*Table Menu Cursos Oportunidade*/
+.menuCursoOportunidade {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.menuCursoOportunidade .label {
+	margin-right: 5px;
+	color: #327FE4;
+	font-weight: bold;
+}
+
+.menuCursoOportunidade .box {
+	margin-right: 10px;
+}
+
+/*Tabela dados pessoais aluno e responsável*/
+.dadosPessoais .table {
+	margin-left: 25px;
+}
+
+.dadosPessoais .tdLabel {
+	background-color: #C1D8EC;
+	width: 210px;
+	padding-left: 5px;
+	margin-left: 10px;
+	height: 20px;
+}
+
+.dadosPessoais .tdConteudo {
+	background-color: #E3EEFA;
+	width: 440px;
+	height: 20px;
+	padding-left: 5px;
+}
+
+/*Lista vazia*/
+.mensageListaVazia {
+	text-align: center;
+	color: gray;
+	font-size: 11px;
+	margin-bottom: 10px;
+}
+
+.mensageListaVazia .imagem {
+	margin-right: 5px;
+}
+
+/*Componente rich simpleTogglePanel*/
+.simpleTogglePanel {
+	text-align: center;
+	color: black;
+}
+
+/*Curriculo*/
+.dataTableItemCurriculo {
+	border-style: hidden;
+	width: 96%;
+	margin-left: 2%;
+	margin-right: 1%;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.dataTableItemCurriculo .checkbox {
+	border-right-style: hidden;
+	width: 5%;
+	text-align: center;
+}
+
+.dataTableItemCurriculo .conteudoItemCurriculo {
+	border-left: 5px;
+	text-align: left;
+	padding-top: 15px;
+}
+
+.conteudoItemCurriculo .cabecalhoItemCurriculo {
+	height: 30px;
+}
+
+.conteudoItemCurriculo .labelCabecalhoItemCurriculo {
+	color: #327FE4;
+	font-weight: bold;
+	margin-right: 5px;
+}
+
+.conteudoItemCurriculo .valorCabecalhoItemCurriculo {
+	font-size: 12px;
+	color: black;
+	font-weight: bold;
+}
+
+.conteudoItemCurriculo .itemCurriculo {
+	height: 20px;
+}
+
+.conteudoItemCurriculo .itemCurriculo .labelItemCurriculo {
+	font-size: 12px;
+	margin-left: 5px;
+	color: black;
+	font-weight: bold;
+	margin-right: 5px;
+}
+
+.conteudoItemCurriculo .itemCurriculo  .valorItemCurriculo {
+	font-size: 12px;
+	color: black;
+	margin-right: 10px;
+}
+
+.conteudoItemCurriculoVisualizacao {
+	margin-left: 20px;
+	margin-top: 15px;
+}
+
+.itemCurriculoFormAcAtual {
+	height: 20px;
+	margin-left: 55px;
+}
+
+.itemCurriculoFormAcAtual .labelItemCurriculoFormAcAtual {
+	font-size: 12px;
+	color: black;
+	font-weight: bold;
+	margin-right: 5px;
+}
+
+.itemCurriculoFormAcAtual  .conteudoItemCurriculoFormAcAtual {
+	font-size: 12px;
+	color: black;
+	margin-right: 10px;
+}
+
+.linhaDivisoriaTopicoCurriculo {
+	background: url(../images/linhaAzul.png) left repeat-x;
+	padding-bottom: 20px;
+	margin-bottom: -20px;
+}
+
+.topicoCurriculo {
+	font-size: 15px;
+	font-weight: bold;
+	color: #003366;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	font-variant: small-caps;
+}
+
+.nomeAlunoCurriculoVisualizacao {
+	color: #666666;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 30px;
+	font-variant: small-caps;
+
+}
+
+.contatoInterno{
+	padding-left: 20px;	
+}
+.contatoInterno .item{
+	height: 20px;	
+
+}
+.contatoInterno .item .label{
+	color: #005BAD;
+	font-size: 12px;
+	font-weight: bold;
+	height: 15px;
+	padding-right: 10px;
+}
+
+.textoInicialContatoInterno{
+	color: #005BAD;
+	font-size: 12px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 5px;
+	margin-bottom: 20px;	
+	text-align: justify;
+	text-indent: 25px;
+}
+
+.menuContatoInterno{
+	padding-left: 250px;	
+}
+	
+.menuContatoInterno .item{
+ 	float:left;
+ 	padding: 10px 3px;
+}
